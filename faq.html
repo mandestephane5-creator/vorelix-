@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Questions fréquentes | Vorelix, gestion scolaire</title>
+<meta name="description" content="Compte parent, notes, mot de passe oublié, démarrage d'une école, sécurité des données, tarifs : les réponses aux questions les plus courantes sur Vorelix.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<script>(function(){var d=document.documentElement,t;d.classList.add("js");try{t=localStorage.getItem("vorelix_theme")}catch(e){}if(t!=="dark"&&t!=="light")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";d.setAttribute("data-theme",t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==="dark"?"#090C20":"#FFFFFF"})()</script>
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Vorelix">
+<meta property="og:title" content="Questions fréquentes | Vorelix, gestion scolaire">
+<meta property="og:description" content="Compte parent, notes, mot de passe oublié, démarrage d'une école, sécurité des données, tarifs : les réponses aux questions les plus courantes sur Vorelix.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+</head>
+<body class="anime" data-page="faq">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="site-header" id="siteHeader"><div class="wrap hdr">
+  <a class="brand" href="index.html" aria-label="Vorelix, accueil"><svg class="logo" viewBox="0 0 34 34" aria-hidden="true"><path class="pg" d="M4 9.5c4.5-2.4 9-2.4 13 0v17c-4-2.4-8.5-2.4-13 0v-17Z"/><path class="pg" d="M30 9.5c-4.5-2.4-9-2.4-13 0v17c4-2.4 8.5-2.4 13 0v-17Z"/><circle class="pt" cx="27" cy="6" r="3.5"/></svg><span class="brand-txt">VORELIX</span></a>
+  <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="fonctionnalites.html">Fonctionnalités</a><a href="tarifs.html">Tarifs</a><a href="a-propos.html">À propos</a><a href="faq.html" aria-current="page">FAQ</a><a href="contact.html">Contact</a></nav>
+  <div class="hdr-r">
+    <a class="ib ib-login" href="#" data-lien="connexion" aria-label="Se connecter à Vorelix"><i class="fa-solid fa-right-to-bracket"></i></a>
+    <button class="ib theme-ic" type="button" id="themeToggle" aria-label="Activer le mode sombre" aria-pressed="false"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+    <a class="b b-sm b-dark hdr-cta" href="contact.html?sujet=demo">Demander une démo</a>
+    <button class="ib burger" type="button" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mnav"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</div></header>
+<div class="mnav-bg" id="mnavBg" hidden></div>
+<nav class="mnav" id="mnav" aria-label="Menu mobile">
+  <a class="mn-link" href="index.html"><span class="mn-ic"><i class="fa-solid fa-house"></i></span><span class="mn-tx"><b>Accueil</b><small>L'école et les parents, le jour même</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="fonctionnalites.html"><span class="mn-ic"><i class="fa-solid fa-layer-group"></i></span><span class="mn-tx"><b>Fonctionnalités</b><small>Direction, surveillants, enseignants, parents</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="tarifs.html"><span class="mn-ic"><i class="fa-solid fa-tag"></i></span><span class="mn-tx"><b>Tarifs</b><small>Trois formules, gratuit pour les parents</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="a-propos.html"><span class="mn-ic"><i class="fa-solid fa-circle-info"></i></span><span class="mn-tx"><b>À propos</b><small>Mission, vision et valeurs</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="faq.html" aria-current="page"><span class="mn-ic"><i class="fa-solid fa-circle-question"></i></span><span class="mn-tx"><b>FAQ</b><small>Les réponses aux questions courantes</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="contact.html"><span class="mn-ic"><i class="fa-solid fa-envelope"></i></span><span class="mn-tx"><b>Contact</b><small>Démonstration, école pilote, questions</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="#" data-lien="connexion"><span class="mn-ic"><i class="fa-solid fa-right-to-bracket"></i></span><span class="mn-tx"><b>Connexion</b><small>Espace de l'école</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <label class="mn-row"><span class="mn-ic"><i class="fa-solid fa-moon"></i></span><span class="mn-tx"><b>Mode sombre</b></span><span class="sw"><input type="checkbox" data-theme-switch><i></i></span></label>
+  <div class="mn-acts"><a class="b b-wa" href="#" data-wa target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a><a class="b b-dark" href="contact.html?sujet=demo">Demander une démo</a></div>
+</nav>
+<main id="contenu">
+<div class="wrap">
+  <header class="page-head">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><i class="fa-solid fa-chevron-right"></i><span>Questions fréquentes</span></nav>
+    <h1>Questions fréquentes</h1>
+    <p>Pour les parents, les écoles, la sécurité et les tarifs.</p>
+    <label class="sbox"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i><span class="sr-only">Rechercher une question</span><input type="search" id="faqSearch" placeholder="Mot de passe, notes, paiement…" autocomplete="off"></label>
+    <div class="chips" role="group" aria-label="Filtrer par thème">
+      <button type="button" data-filtre="" aria-pressed="true">Tout</button>
+      <button type="button" data-filtre="Parents" aria-pressed="false">Parents</button>
+      <button type="button" data-filtre="Écoles" aria-pressed="false">Écoles</button>
+      <button type="button" data-filtre="Sécurité" aria-pressed="false">Sécurité</button>
+      <button type="button" data-filtre="Tarifs" aria-pressed="false">Tarifs</button>
+    </div>
+  </header>
+
+  <div class="faq-grid">
+    <div id="faqList">
+      <details class="q" data-theme="Parents"><summary>Comment obtenir mon compte parent ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>L'école imprime les identifiants de chaque classe, un matricule et un mot de passe par parent, et vous les remet. Il suffit de les saisir dans l'application.</p><small>Parents</small></div></details>
+      <details class="q" data-theme="Parents"><summary>Puis-je suivre plusieurs enfants ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Oui. Un même compte parent peut être relié à plusieurs enfants inscrits dans l'école.</p><small>Parents</small></div></details>
+      <details class="q" data-theme="Parents"><summary>Quand vais-je voir une nouvelle note ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Dès que le surveillant a validé la classe. Vous recevez alors une notification, une seule par enfant, même si plusieurs notes sont publiées en même temps.</p><small>Parents</small></div></details>
+      <details class="q" data-theme="Parents"><summary>J'ai oublié mon mot de passe.<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Demandez-en un nouveau à l'école. L'ancien cesse alors de fonctionner : personne ne peut le retrouver, pas même l'école.</p><small>Parents</small></div></details>
+      <details class="q" data-theme="Parents"><summary>Comment signaler un problème à l'école ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Depuis l'application. Vous suivez ensuite votre demande et vous êtes prévenu quand l'école l'a traitée.</p><small>Parents</small></div></details>
+      <details class="q" data-theme="Parents"><summary>Faut-il une bonne connexion internet ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Une connexion mobile suffit. Un mode qui fonctionne avec peu de réseau fait partie de nos projets.</p><small>Parents</small></div></details>
+      <details class="q" data-theme="Écoles"><summary>Comment démarrer avec Vorelix ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Contactez-nous pour devenir école pilote. Nous créons avec vous les classes, les matières et les comptes, puis nous formons l'équipe.</p><small>Écoles</small></div></details>
+      <details class="q" data-theme="Écoles"><summary>Les enseignants doivent-ils être formés ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>La saisie est simple, mais une courte formation aide toute l'équipe à bien démarrer. Elle est comprise dans la formule Accompagnement.</p><small>Écoles</small></div></details>
+      <details class="q" data-theme="Écoles"><summary>Peut-on corriger une note après validation ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Oui. La correction est enregistrée dans l'historique, avec son auteur et sa date.</p><small>Écoles</small></div></details>
+      <details class="q" data-theme="Sécurité"><summary>Qui peut voir les notes de mon enfant ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Vous et l'équipe de l'école. Chaque parent ne voit que ses propres enfants.</p><small>Sécurité</small></div></details>
+      <details class="q" data-theme="Sécurité"><summary>Les mots de passe sont-ils protégés ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Oui. Ils sont chiffrés et personne ne peut les lire. Après plusieurs essais ratés, le compte se bloque un moment.</p><small>Sécurité</small></div></details>
+      <details class="q" data-theme="Tarifs"><summary>L'application est-elle payante pour les parents ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Non. L'abonnement est payé par l'école.</p><small>Tarifs</small></div></details>
+      <details class="q" data-theme="Tarifs"><summary>Comment payer l'abonnement de l'école ?<i class="fa-solid fa-plus" aria-hidden="true"></i></summary><div class="a"><p>Les modalités de paiement sont convenues avec chaque établissement au moment de la mise en place. Écrivez-nous pour en parler.</p><small>Tarifs</small></div></details>
+      <p class="vide" id="faqEmpty" hidden>Aucune question ne correspond. <a class="lnk" href="contact.html">Posez-nous la vôtre <i class="fa-solid fa-arrow-right"></i></a></p>
+    </div>
+    <aside class="side" aria-labelledby="side-title">
+      <h2 id="side-title">Une autre question ?</h2>
+      <p>Vous êtes parent et votre question concerne votre enfant ? Contactez d'abord son école. Pour tout le reste, écrivez-nous.</p>
+      <div class="lines">
+        <a href="#" data-ligne-contact="whatsapp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp ic wa"></i><span><b data-contact-texte="whatsapp"></b><small>WhatsApp</small></span><i class="fa-solid fa-arrow-right arr"></i></a>
+        <a href="#" data-ligne-contact="telephone"><i class="fa-solid fa-phone ic"></i><span><b data-contact-texte="telephone"></b><small>Appel</small></span><i class="fa-solid fa-arrow-right arr"></i></a>
+        <a href="#" data-ligne-contact="email"><i class="fa-solid fa-envelope ic"></i><span><b data-contact-texte="email"></b><small>E-mail</small></span><i class="fa-solid fa-arrow-right arr"></i></a>
+        <a href="contact.html"><i class="fa-solid fa-pen-to-square ic"></i><span><b>Formulaire de contact</b><small>Réponse par téléphone ou e-mail</small></span><i class="fa-solid fa-arrow-right arr"></i></a>
+      </div>
+    </aside>
+  </div>
+</div>
+<div class="wrap"><section class="cta rv" aria-labelledby="cta-title">
+  <span class="ring r1" aria-hidden="true"></span><span class="ring r2" aria-hidden="true"></span>
+  <div><h2 id="cta-title">Vous dirigez une école ?</h2><p>Une démonstration avec vos classes répond à la plupart des questions.</p></div>
+  <div class="cta-r"><a class="tel-big" href="#" data-contact="telephone"></a>
+    <div class="cta-b"><a class="b b-wa" href="#" data-wa target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a><a class="b b-violet" href="contact.html?sujet=pilote" data-sans-wa>Devenir école pilote</a><a class="b" href="tarifs.html">Voir les tarifs</a></div></div>
+</section></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="fbrand"><a class="brand" href="index.html" aria-label="Vorelix, accueil"><svg class="logo" viewBox="0 0 34 34" aria-hidden="true"><path class="pg" d="M4 9.5c4.5-2.4 9-2.4 13 0v17c-4-2.4-8.5-2.4-13 0v-17Z"/><path class="pg" d="M30 9.5c-4.5-2.4-9-2.4-13 0v17c4-2.4 8.5-2.4 13 0v-17Z"/><circle class="pt" cx="27" cy="6" r="3.5"/></svg><span class="brand-txt">VORELIX</span></a>
+        <p>L'application de gestion scolaire qui relie l'école et les parents. Pensée à Ouagadougou, pour les établissements du Burkina Faso.</p>
+        <div class="socials"><a href="#" data-contact-icon="whatsapp" target="_blank" rel="noopener" aria-label="Vorelix sur WhatsApp"><i class="fa-brands fa-whatsapp"></i></a><a href="#" data-contact-icon="telephone" aria-label="Appeler Vorelix"><i class="fa-solid fa-phone"></i></a><a href="#" data-contact-icon="email" aria-label="Écrire un e-mail à Vorelix"><i class="fa-solid fa-envelope"></i></a></div></div>
+      <div><h2>Application</h2><a href="fonctionnalites.html">Fonctionnalités</a><a href="fonctionnalites.html#securite">Sécurité</a><a href="tarifs.html">Tarifs</a><a href="#" data-lien="connexion">Connexion</a></div>
+      <div><h2>Vorelix</h2><a href="a-propos.html">À propos</a><a href="faq.html">Questions fréquentes</a><a href="contact.html?sujet=pilote">Devenir école pilote</a><a href="contact.html">Contact</a></div>
+      <div><h2>Nous joindre</h2><span class="fline" data-texte="adresse">Ouagadougou, Burkina Faso</span><a href="#" data-contact="telephone"></a><a href="#" data-contact="whatsapp" data-libelle="WhatsApp "></a><a href="#" data-contact="email"></a><span class="fline" data-texte="horaires">Lun–Ven, 8h–17h</span></div>
+    </div>
+    <div class="foot-bottom"><span>© <span data-year>2026</span> Vorelix. Tous droits réservés.</span><span>Gestion scolaire intelligente</span></div>
+  </div>
+</footer>
+<a class="wa-float" href="#" data-wa target="_blank" rel="noopener" aria-label="Écrire à Vorelix sur WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<nav class="tabbar" aria-label="Navigation rapide">
+  <a href="index.html"><span class="ti"><i class="fa-solid fa-house"></i></span><span class="tl">Accueil</span></a>
+  <a href="fonctionnalites.html"><span class="ti"><i class="fa-solid fa-layer-group"></i></span><span class="tl">Fonctions</span></a>
+  <a href="contact.html?sujet=demo" class="tb-mid" data-tb-mid><span class="ti"><i class="fa-solid fa-paper-plane"></i></span><span class="tl">Démo</span></a>
+  <a href="tarifs.html"><span class="ti"><i class="fa-solid fa-tag"></i></span><span class="tl">Tarifs</span></a>
+  <a href="contact.html"><span class="ti"><i class="fa-solid fa-envelope"></i></span><span class="tl">Contact</span></a>
+</nav>
+<div class="toast" id="toast" role="status" aria-live="polite"><i class="fa-solid fa-circle-check"></i><span></span></div>
+</body>
+</html>

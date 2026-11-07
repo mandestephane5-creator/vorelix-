@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fonctionnalités | Vorelix, gestion scolaire</title>
+<meta name="description" content="Direction, surveillants, enseignants, parents : ce que Vorelix fait pour chacun. Validation par classe, élèves à suivre, convocations automatiques, rappels de composition, sécurité des données.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<script>(function(){var d=document.documentElement,t;d.classList.add("js");try{t=localStorage.getItem("vorelix_theme")}catch(e){}if(t!=="dark"&&t!=="light")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";d.setAttribute("data-theme",t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==="dark"?"#090C20":"#FFFFFF"})()</script>
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Vorelix">
+<meta property="og:title" content="Fonctionnalités | Vorelix, gestion scolaire">
+<meta property="og:description" content="Direction, surveillants, enseignants, parents : ce que Vorelix fait pour chacun. Validation par classe, élèves à suivre, convocations automatiques, rappels de composition, sécurité des données.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+</head>
+<body class="anime" data-page="fonctionnalites">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="site-header" id="siteHeader"><div class="wrap hdr">
+  <a class="brand" href="index.html" aria-label="Vorelix, accueil"><svg class="logo" viewBox="0 0 34 34" aria-hidden="true"><path class="pg" d="M4 9.5c4.5-2.4 9-2.4 13 0v17c-4-2.4-8.5-2.4-13 0v-17Z"/><path class="pg" d="M30 9.5c-4.5-2.4-9-2.4-13 0v17c4-2.4 8.5-2.4 13 0v-17Z"/><circle class="pt" cx="27" cy="6" r="3.5"/></svg><span class="brand-txt">VORELIX</span></a>
+  <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="fonctionnalites.html" aria-current="page">Fonctionnalités</a><a href="tarifs.html">Tarifs</a><a href="a-propos.html">À propos</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav>
+  <div class="hdr-r">
+    <a class="ib ib-login" href="#" data-lien="connexion" aria-label="Se connecter à Vorelix"><i class="fa-solid fa-right-to-bracket"></i></a>
+    <button class="ib theme-ic" type="button" id="themeToggle" aria-label="Activer le mode sombre" aria-pressed="false"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+    <a class="b b-sm b-dark hdr-cta" href="contact.html?sujet=demo">Demander une démo</a>
+    <button class="ib burger" type="button" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mnav"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</div></header>
+<div class="mnav-bg" id="mnavBg" hidden></div>
+<nav class="mnav" id="mnav" aria-label="Menu mobile">
+  <a class="mn-link" href="index.html"><span class="mn-ic"><i class="fa-solid fa-house"></i></span><span class="mn-tx"><b>Accueil</b><small>L'école et les parents, le jour même</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="fonctionnalites.html" aria-current="page"><span class="mn-ic"><i class="fa-solid fa-layer-group"></i></span><span class="mn-tx"><b>Fonctionnalités</b><small>Direction, surveillants, enseignants, parents</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="tarifs.html"><span class="mn-ic"><i class="fa-solid fa-tag"></i></span><span class="mn-tx"><b>Tarifs</b><small>Trois formules, gratuit pour les parents</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="a-propos.html"><span class="mn-ic"><i class="fa-solid fa-circle-info"></i></span><span class="mn-tx"><b>À propos</b><small>Mission, vision et valeurs</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="faq.html"><span class="mn-ic"><i class="fa-solid fa-circle-question"></i></span><span class="mn-tx"><b>FAQ</b><small>Les réponses aux questions courantes</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="contact.html"><span class="mn-ic"><i class="fa-solid fa-envelope"></i></span><span class="mn-tx"><b>Contact</b><small>Démonstration, école pilote, questions</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="#" data-lien="connexion"><span class="mn-ic"><i class="fa-solid fa-right-to-bracket"></i></span><span class="mn-tx"><b>Connexion</b><small>Espace de l'école</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <label class="mn-row"><span class="mn-ic"><i class="fa-solid fa-moon"></i></span><span class="mn-tx"><b>Mode sombre</b></span><span class="sw"><input type="checkbox" data-theme-switch><i></i></span></label>
+  <div class="mn-acts"><a class="b b-wa" href="#" data-wa target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a><a class="b b-dark" href="contact.html?sujet=demo">Demander une démo</a></div>
+</nav>
+<main id="contenu">
+<div class="wrap">
+  <header class="page-head">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><i class="fa-solid fa-chevron-right"></i><span>Fonctionnalités</span></nav>
+    <h1>Tout ce que Vorelix fait pour votre école</h1>
+    <p>Quatre espaces, un seul établissement. Chaque personne voit ce qui la concerne, et seulement cela.</p>
+    <nav class="jump" aria-label="Aller à"><a href="#direction"><i class="fa-solid fa-building-columns"></i>Direction</a><a href="#surveillants"><i class="fa-solid fa-user-check"></i>Surveillants</a><a href="#enseignants"><i class="fa-solid fa-chalkboard-user"></i>Enseignants</a><a href="#parents"><i class="fa-solid fa-mobile-screen"></i>Parents</a><a href="#securite"><i class="fa-solid fa-shield-halved"></i>Sécurité</a><a href="#a-venir"><i class="fa-solid fa-seedling"></i>À venir</a></nav>
+  </header>
+
+  <section class="svc" id="direction" aria-labelledby="dir-title">
+    <div class="svc-ph rv">
+      <span class="ring r1" aria-hidden="true"></span>
+      <div class="ui" aria-hidden="true">
+        <div class="ui-top"><b>Direction</b><span>Novembre</span></div>
+        <div class="ui-title">Élèves à suivre ce mois-ci</div>
+        <div class="ui-row"><span>Zongo Ibrahim, 5e A</span><span class="sig">6 absences</span></div>
+        <div class="ui-row"><span>Compaoré Salif, 4e B</span><span class="sig moy">moyenne 7,4</span></div>
+        <div class="ui-row"><span>Nikiéma Rasmata, 6e C</span><span class="sig">5 absences</span></div>
+        <div class="ui-btn">Prévenir les familles</div>
+      </div>
+      <span class="cap">Tableau de la direction (exemple)</span>
+    </div>
+    <div>
+      <p class="eyebrow">Pour la direction</p>
+      <h2 id="dir-title">Organiser l'année, suivre l'établissement</h2>
+      <p class="lead">La direction crée la structure de l'année une fois, puis voit chaque mois les élèves qui ont besoin d'attention.</p>
+      <ul class="checks">
+        <li><i class="fa-solid fa-check"></i>Classes, matières et enseignants</li>
+        <li><i class="fa-solid fa-check"></i>Emploi du temps et calendrier des congés</li>
+        <li><i class="fa-solid fa-check"></i>Dates de composition, rappelées aux parents</li>
+        <li><i class="fa-solid fa-check"></i>Annonces à toute l'école ou à une classe</li>
+        <li><i class="fa-solid fa-check"></i>Identifiants des parents, imprimés par classe</li>
+      </ul>
+      <a class="b b-dark" href="contact.html?sujet=demo">Demander une démonstration</a>
+    </div>
+  </section>
+
+  <section class="svc rev" id="surveillants" aria-labelledby="surv-title">
+    <div class="svc-ph rv">
+      <span class="ring r1" aria-hidden="true"></span>
+      <div class="ui" aria-hidden="true">
+        <div class="ui-top"><b>Surveillant</b><span>11:40</span></div>
+        <div class="ui-title">6e B : notes en attente</div>
+        <div class="ui-row"><span>Mathématiques</span><span class="ui-sm">32 notes</span></div>
+        <div class="ui-row"><span>Français</span><span class="ui-sm">30 notes</span></div>
+        <div class="ui-row"><span>Absences du jour</span><span class="ui-sm">3</span></div>
+        <div class="ui-btn" style="background:#6C4FD1"><i class="fa-solid fa-check"></i>Valider la classe</div>
+      </div>
+      <span class="cap">Une classe validée en un geste</span>
+    </div>
+    <div>
+      <p class="eyebrow">Pour les surveillants</p>
+      <h2 id="surv-title">Rien ne part sans être vérifié</h2>
+      <p class="lead">Le surveillant relit ce que les enseignants ont saisi, puis valide toute la classe. C'est seulement là que les parents sont prévenus.</p>
+      <ul class="checks">
+        <li><i class="fa-solid fa-check"></i>Notes et absences en attente, validées par classe</li>
+        <li><i class="fa-solid fa-check"></i>Appel du jour, classe par classe</li>
+        <li><i class="fa-solid fa-check"></i>Compteur de signalements du mois pour chaque élève</li>
+        <li><i class="fa-solid fa-check"></i>Demandes des parents, avec leur suivi</li>
+      </ul>
+      <a class="b b-dark" href="contact.html?sujet=demo">Demander une démonstration</a>
+    </div>
+  </section>
+
+  <section class="svc" id="enseignants" aria-labelledby="ens-title">
+    <div class="svc-ph rv">
+      <span class="ring r1" aria-hidden="true"></span>
+      <div class="ui" aria-hidden="true">
+        <div class="ui-top"><b>Enseignant</b><span>10:02</span></div>
+        <div class="ui-title">6e B, mathématiques, devoir n°2</div>
+        <div class="ui-row"><span>Ouédraogo Awa</span><span class="case"><span class="tape">14</span></span></div>
+        <div class="ui-row"><span>Kaboré Issa</span><span class="case">12</span></div>
+        <div class="ui-row"><span>Sawadogo Mariam</span><span class="case">16,5</span></div>
+        <div class="ui-btn envoi">Envoyer pour validation</div>
+      </div>
+      <span class="cap">Saisie des notes (exemple)</span>
+    </div>
+    <div>
+      <p class="eyebrow">Pour les enseignants</p>
+      <h2 id="ens-title">Saisir sans paperasse</h2>
+      <p class="lead">Les notes, les absences et les retards se saisissent pendant ou juste après le cours, classe par classe.</p>
+      <ul class="checks">
+        <li><i class="fa-solid fa-check"></i>Notes par classe et par matière</li>
+        <li><i class="fa-solid fa-check"></i>Absences, retards et exclusions en quelques secondes</li>
+        <li><i class="fa-solid fa-check"></i>Élève perturbateur signalé en un geste</li>
+        <li><i class="fa-solid fa-check"></i>Emploi du temps et salles de la semaine</li>
+      </ul>
+      <a class="b b-dark" href="contact.html?sujet=demo">Demander une démonstration</a>
+    </div>
+  </section>
+
+  <section class="svc rev" id="parents" aria-labelledby="par-title">
+    <div class="svc-ph rv">
+      <span class="ring r1" aria-hidden="true"></span>
+      <div class="phone" aria-hidden="true">
+        <div class="ph-screen">
+          <div class="ph-top"><span>Awa, 6e B</span><i class="fa-solid fa-bell"></i></div>
+          <b class="ph-title">Aujourd'hui</b>
+          <div class="ph-stack">
+            <div class="ntf" style="animation-delay:0s"><span class="ntf-ic" style="background:#12163A;color:#F5B841"><i class="fa-solid fa-check"></i></span><span><b>Nouvelle note, 11:40</b>Mathématiques : 14/20</span></div>
+            <div class="ntf" style="animation-delay:1.4s"><span class="ntf-ic" style="background:#EEE9FB;color:#6C4FD1"><i class="fa-regular fa-calendar"></i></span><span><b>Rappel</b>Composition de français vendredi 21.</span></div>
+          </div>
+        </div>
+      </div>
+      <span class="cap">L'application des parents</span>
+    </div>
+    <div>
+      <p class="eyebrow">Pour les parents</p>
+      <h2 id="par-title">Suivre ses enfants au quotidien</h2>
+      <p class="lead">Avec le matricule et le mot de passe remis par l'école, le parent suit tout depuis son téléphone.</p>
+      <ul class="checks">
+        <li><i class="fa-solid fa-check"></i>Notes et moyennes, dès leur validation</li>
+        <li><i class="fa-solid fa-check"></i>Absences et retards, le jour même</li>
+        <li><i class="fa-solid fa-check"></i>Emploi du temps, rappels et convocations</li>
+        <li><i class="fa-solid fa-check"></i>Plusieurs enfants dans un seul compte</li>
+        <li><i class="fa-solid fa-check"></i>Un problème signalé à l'école, avec la réponse</li>
+      </ul>
+      <a class="b b-dark" href="faq.html">Questions des parents</a>
+    </div>
+  </section>
+
+  <section class="sec" id="securite" aria-labelledby="sec-title">
+    <div class="sec-head"><div><p class="eyebrow">Sécurité</p><h2 id="sec-title">Chaque parent ne voit que son enfant</h2></div><p class="sec-p">Les notes et le comportement d'un élève sont des informations sensibles. Elles restent entre l'école et la famille.</p></div>
+    <div class="cards">
+      <div class="gi rv"><i class="fa-solid fa-shield-halved"></i><b>Validé avant d'être publié</b><span>Une note n'apparaît chez le parent qu'après la validation du surveillant.</span></div>
+      <div class="gi rv"><i class="fa-solid fa-lock"></i><b>Mots de passe illisibles</b><span>Ils sont chiffrés : même l'école ne peut pas les lire. En cas d'oubli, elle en génère un nouveau.</span></div>
+      <div class="gi rv"><i class="fa-solid fa-user-lock"></i><b>Compte bloqué après plusieurs essais</b><span>Après trop de tentatives de connexion, le compte se bloque un moment.</span></div>
+      <div class="gi rv"><i class="fa-solid fa-clock-rotate-left"></i><b>Historique complet</b><span>Toute modification de note est enregistrée avec son auteur et sa date.</span></div>
+    </div>
+  </section>
+
+  <section class="sec" id="a-venir" aria-labelledby="venir-title">
+    <div class="sec-head"><div><p class="eyebrow">À venir</p><h2 id="venir-title">Ce que nous voulons ajouter ensuite</h2></div><p class="sec-p">Ces idées ne sont pas encore dans l'application. Les écoles pilotes nous aideront à choisir l'ordre.</p></div>
+    <div class="cards cards-3">
+      <div class="gi rv"><span class="tag">À venir</span><b>Alertes par SMS</b><span>Pour les parents sans smartphone : absences et convocations par simple SMS.</span></div>
+      <div class="gi rv"><span class="tag">À venir</span><b>Messages vocaux en mooré et en dioula</b><span>Une notification lue à voix haute, pour les parents plus à l'aise à l'oral.</span></div>
+      <div class="gi rv"><span class="tag">À venir</span><b>Scolarité par Orange Money et Moov Money</b><span>Payer une tranche depuis son téléphone, avec un reçu visible par l'école.</span></div>
+      <div class="gi rv"><span class="tag">À venir</span><b>Fonctionne avec peu de réseau</b><span>L'application garde les dernières informations et se met à jour au retour de la connexion.</span></div>
+      <div class="gi rv"><span class="tag">À venir</span><b>Bulletins en PDF</b><span>Le bulletin du trimestre, généré à partir des notes validées.</span></div>
+      <div class="gi rv"><span class="tag">À venir</span><b>Hébergement au choix</b><span>Les données sur un serveur au Burkina, ou sur celui de l'établissement.</span></div>
+    </div>
+  </section>
+</div>
+<div class="wrap"><section class="cta rv" aria-labelledby="cta-title">
+  <span class="ring r1" aria-hidden="true"></span><span class="ring r2" aria-hidden="true"></span>
+  <div><h2 id="cta-title">Voyez Vorelix dans votre école.</h2><p>Une démonstration avec vos classes et votre emploi du temps vaut mieux qu'une longue description.</p></div>
+  <div class="cta-r"><a class="tel-big" href="#" data-contact="telephone"></a>
+    <div class="cta-b"><a class="b b-wa" href="#" data-wa target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a><a class="b b-violet" href="contact.html?sujet=pilote" data-sans-wa>Devenir école pilote</a><a class="b" href="tarifs.html">Voir les tarifs</a></div></div>
+</section></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="fbrand"><a class="brand" href="index.html" aria-label="Vorelix, accueil"><svg class="logo" viewBox="0 0 34 34" aria-hidden="true"><path class="pg" d="M4 9.5c4.5-2.4 9-2.4 13 0v17c-4-2.4-8.5-2.4-13 0v-17Z"/><path class="pg" d="M30 9.5c-4.5-2.4-9-2.4-13 0v17c4-2.4 8.5-2.4 13 0v-17Z"/><circle class="pt" cx="27" cy="6" r="3.5"/></svg><span class="brand-txt">VORELIX</span></a>
+        <p>L'application de gestion scolaire qui relie l'école et les parents. Pensée à Ouagadougou, pour les établissements du Burkina Faso.</p>
+        <div class="socials"><a href="#" data-contact-icon="whatsapp" target="_blank" rel="noopener" aria-label="Vorelix sur WhatsApp"><i class="fa-brands fa-whatsapp"></i></a><a href="#" data-contact-icon="telephone" aria-label="Appeler Vorelix"><i class="fa-solid fa-phone"></i></a><a href="#" data-contact-icon="email" aria-label="Écrire un e-mail à Vorelix"><i class="fa-solid fa-envelope"></i></a></div></div>
+      <div><h2>Application</h2><a href="fonctionnalites.html">Fonctionnalités</a><a href="fonctionnalites.html#securite">Sécurité</a><a href="tarifs.html">Tarifs</a><a href="#" data-lien="connexion">Connexion</a></div>
+      <div><h2>Vorelix</h2><a href="a-propos.html">À propos</a><a href="faq.html">Questions fréquentes</a><a href="contact.html?sujet=pilote">Devenir école pilote</a><a href="contact.html">Contact</a></div>
+      <div><h2>Nous joindre</h2><span class="fline" data-texte="adresse">Ouagadougou, Burkina Faso</span><a href="#" data-contact="telephone"></a><a href="#" data-contact="whatsapp" data-libelle="WhatsApp "></a><a href="#" data-contact="email"></a><span class="fline" data-texte="horaires">Lun–Ven, 8h–17h</span></div>
+    </div>
+    <div class="foot-bottom"><span>© <span data-year>2026</span> Vorelix. Tous droits réservés.</span><span>Gestion scolaire intelligente</span></div>
+  </div>
+</footer>
+<a class="wa-float" href="#" data-wa target="_blank" rel="noopener" aria-label="Écrire à Vorelix sur WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<nav class="tabbar" aria-label="Navigation rapide">
+  <a href="index.html"><span class="ti"><i class="fa-solid fa-house"></i></span><span class="tl">Accueil</span></a>
+  <a href="fonctionnalites.html" aria-current="page"><span class="ti"><span class="tb-pill"></span><i class="fa-solid fa-layer-group"></i></span><span class="tl">Fonctions</span></a>
+  <a href="contact.html?sujet=demo" class="tb-mid" data-tb-mid><span class="ti"><i class="fa-solid fa-paper-plane"></i></span><span class="tl">Démo</span></a>
+  <a href="tarifs.html"><span class="ti"><i class="fa-solid fa-tag"></i></span><span class="tl">Tarifs</span></a>
+  <a href="contact.html"><span class="ti"><i class="fa-solid fa-envelope"></i></span><span class="tl">Contact</span></a>
+</nav>
+<div class="toast" id="toast" role="status" aria-live="polite"><i class="fa-solid fa-circle-check"></i><span></span></div>
+</body>
+</html>

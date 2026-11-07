@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vorelix, gestion scolaire au Burkina Faso : l'école et les parents, le jour même</title>
+<meta name="description" content="Vorelix relie la direction, les surveillants, les enseignants et les parents. Notes validées, absences, convocations et rappels de composition arrivent sur le téléphone des parents.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<script>(function(){var d=document.documentElement,t;d.classList.add("js");try{t=localStorage.getItem("vorelix_theme")}catch(e){}if(t!=="dark"&&t!=="light")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";d.setAttribute("data-theme",t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==="dark"?"#090C20":"#FFFFFF"})()</script>
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Vorelix">
+<meta property="og:title" content="Vorelix, gestion scolaire au Burkina Faso : l'école et les parents, le jour même">
+<meta property="og:description" content="Vorelix relie la direction, les surveillants, les enseignants et les parents. Notes validées, absences, convocations et rappels de composition arrivent sur le téléphone des parents.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+</head>
+<body class="anime" data-page="index">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="site-header" id="siteHeader"><div class="wrap hdr">
+  <a class="brand" href="index.html" aria-label="Vorelix, accueil"><svg class="logo" viewBox="0 0 34 34" aria-hidden="true"><path class="pg" d="M4 9.5c4.5-2.4 9-2.4 13 0v17c-4-2.4-8.5-2.4-13 0v-17Z"/><path class="pg" d="M30 9.5c-4.5-2.4-9-2.4-13 0v17c4-2.4 8.5-2.4 13 0v-17Z"/><circle class="pt" cx="27" cy="6" r="3.5"/></svg><span class="brand-txt">VORELIX</span></a>
+  <nav class="nav" aria-label="Navigation principale"><a href="index.html" aria-current="page">Accueil</a><a href="fonctionnalites.html">Fonctionnalités</a><a href="tarifs.html">Tarifs</a><a href="a-propos.html">À propos</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav>
+  <div class="hdr-r">
+    <a class="ib ib-login" href="#" data-lien="connexion" aria-label="Se connecter à Vorelix"><i class="fa-solid fa-right-to-bracket"></i></a>
+    <button class="ib theme-ic" type="button" id="themeToggle" aria-label="Activer le mode sombre" aria-pressed="false"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+    <a class="b b-sm b-dark hdr-cta" href="contact.html?sujet=demo">Demander une démo</a>
+    <button class="ib burger" type="button" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mnav"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</div></header>
+<div class="mnav-bg" id="mnavBg" hidden></div>
+<nav class="mnav" id="mnav" aria-label="Menu mobile">
+  <a class="mn-link" href="index.html" aria-current="page"><span class="mn-ic"><i class="fa-solid fa-house"></i></span><span class="mn-tx"><b>Accueil</b><small>L'école et les parents, le jour même</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="fonctionnalites.html"><span class="mn-ic"><i class="fa-solid fa-layer-group"></i></span><span class="mn-tx"><b>Fonctionnalités</b><small>Direction, surveillants, enseignants, parents</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="tarifs.html"><span class="mn-ic"><i class="fa-solid fa-tag"></i></span><span class="mn-tx"><b>Tarifs</b><small>Trois formules, gratuit pour les parents</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="a-propos.html"><span class="mn-ic"><i class="fa-solid fa-circle-info"></i></span><span class="mn-tx"><b>À propos</b><small>Mission, vision et valeurs</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="faq.html"><span class="mn-ic"><i class="fa-solid fa-circle-question"></i></span><span class="mn-tx"><b>FAQ</b><small>Les réponses aux questions courantes</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="contact.html"><span class="mn-ic"><i class="fa-solid fa-envelope"></i></span><span class="mn-tx"><b>Contact</b><small>Démonstration, école pilote, questions</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="#" data-lien="connexion"><span class="mn-ic"><i class="fa-solid fa-right-to-bracket"></i></span><span class="mn-tx"><b>Connexion</b><small>Espace de l'école</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <label class="mn-row"><span class="mn-ic"><i class="fa-solid fa-moon"></i></span><span class="mn-tx"><b>Mode sombre</b></span><span class="sw"><input type="checkbox" data-theme-switch><i></i></span></label>
+  <div class="mn-acts"><a class="b b-wa" href="#" data-wa target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a><a class="b b-dark" href="contact.html?sujet=demo">Demander une démo</a></div>
+</nav>
+<main id="contenu">
+<div class="wrap">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="h-left">
+      <p class="eyebrow" data-hero>Gestion scolaire · Burkina Faso</p>
+      <h1 id="hero-title" data-hero>De la classe<br>à la maison,<br><em>le jour même.</em></h1>
+      <p class="lead" data-hero>Vorelix relie la direction, les surveillants, les enseignants et les parents. Une note validée, une absence, une composition annoncée : la famille est prévenue sur son téléphone, sans attendre le bulletin.</p>
+      <div class="acts" data-hero><a class="b b-dark" href="contact.html?sujet=pilote">Devenir école pilote</a><a class="lnk" href="fonctionnalites.html">Voir les fonctionnalités <i class="fa-solid fa-arrow-right"></i></a></div>
+      <div class="kpis" data-hero><div><b>4 espaces</b><span>pour toute l'école</span></div><div><b>1 validation</b><span>avant chaque publication</span></div><div><b>0 FCFA</b><span>pour les parents</span></div></div>
+    </div>
+    <div class="h-right">
+      <div class="scene" role="img" aria-label="Un enseignant saisit une note, le surveillant valide la classe, le parent reçoit la note sur son téléphone">
+        <span class="ring r1" aria-hidden="true"></span><span class="ring r2" aria-hidden="true"></span>
+        <div class="ui ui-teacher" aria-hidden="true">
+          <div class="ui-top"><b>Enseignant</b><span>10:02</span></div>
+          <div class="ui-title">6e B, mathématiques, devoir n°2</div>
+          <div class="ui-row"><span>Ouédraogo Awa</span><span class="case"><span class="tape">14</span></span></div>
+          <div class="ui-row"><span>Kaboré Issa</span><span class="case">12</span></div>
+          <div class="ui-row"><span>Sawadogo Mariam</span><span class="case">16,5</span></div>
+          <div class="ui-btn envoi">Envoyer pour validation</div>
+        </div>
+        <div class="phone" aria-hidden="true">
+          <div class="ph-screen">
+            <div class="ph-top"><span>Awa, 6e B</span><i class="fa-solid fa-bell"></i></div>
+            <b class="ph-title">Aujourd'hui</b>
+            <div class="ph-stack">
+              <div class="ntf" style="animation-delay:0s"><span class="ntf-ic" style="background:#12163A;color:#F5B841"><i class="fa-solid fa-check"></i></span><span><b>Nouvelle note, 11:40</b>Mathématiques, devoir n°2 : 14/20</span></div>
+              <div class="ntf" style="animation-delay:1.4s"><span class="ntf-ic" style="background:#FDEBEC;color:#B42335"><i class="fa-regular fa-clock"></i></span><span><b>Retard, 07:25</b>Awa est arrivée après le début du cours.</span></div>
+              <div class="ntf" style="animation-delay:2.8s"><span class="ntf-ic" style="background:#EEE9FB;color:#6C4FD1"><i class="fa-regular fa-calendar"></i></span><span><b>Rappel</b>Composition de français vendredi 21.</span></div>
+            </div>
+            <div class="ph-notes"><div><span>Français</span><b>15,5/20</b></div><div><span>Anglais</span><b>13/20</b></div><div><span>SVT</span><b>12/20</b></div></div>
+          </div>
+        </div>
+      </div>
+      <span class="ring r3" aria-hidden="true"></span>
+      <div class="manifest" id="manifest">
+        <div class="stamp" data-hit aria-hidden="true"><div><b><i class="fa-solid fa-check"></i></b><small>VALIDÉ</small></div></div>
+        <h2>Fiche de validation</h2>
+        <dl>
+          <div class="mrow"><dt>Classe</dt><dd>6e B</dd></div>
+          <div class="mrow"><dt>Notes vérifiées</dt><dd>32</dd></div>
+          <div class="mrow"><dt>Envoyées aux parents</dt><dd>11:40</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <nav class="finder" aria-label="Les quatre espaces de Vorelix" data-hero>
+    <a class="ff" href="fonctionnalites.html#direction"><span><small>Direction</small><b>Organiser l'année</b></span><i class="fa-solid fa-chevron-right"></i></a>
+    <a class="ff" href="fonctionnalites.html#surveillants"><span><small>Surveillants</small><b>Valider les notes</b></span><i class="fa-solid fa-chevron-right"></i></a>
+    <a class="ff" href="fonctionnalites.html#enseignants"><span><small>Enseignants</small><b>Saisir les notes</b></span><i class="fa-solid fa-chevron-right"></i></a>
+    <a class="ff" href="fonctionnalites.html#parents"><span><small>Parents</small><b>Suivre ses enfants</b></span><i class="fa-solid fa-chevron-right"></i></a>
+    <a class="b b-dark" href="fonctionnalites.html"><i class="fa-solid fa-layer-group"></i>Tout voir</a>
+  </nav>
+
+  <section class="sec" aria-labelledby="constat-title">
+    <div class="sec-head"><div><p class="eyebrow">Le constat</p><h2 id="constat-title">L'information arrive trop tard</h2></div><p class="sec-p">Les parents découvrent les difficultés de leur enfant sur le bulletin, quand le trimestre est fini. Entre l'école et la maison, il n'y a souvent que le cahier de correspondance.</p></div>
+    <div class="svcs">
+      <article class="sv rv"><span class="sv-ic"><i class="fa-solid fa-pen-to-square"></i></span><h3>Les notes</h3><p class="avant"><span class="lbl">Aujourd'hui</span>Elles restent dans le carnet jusqu'au bulletin.</p><p class="apres"><span><span class="lbl">Avec Vorelix</span>Chez le parent le jour de leur validation.</span></p></article>
+      <article class="sv rv"><span class="sv-ic"><i class="fa-solid fa-user-clock"></i></span><h3>Les absences</h3><p class="avant"><span class="lbl">Aujourd'hui</span>On les remarque quand le retard est pris.</p><p class="apres"><span><span class="lbl">Avec Vorelix</span>5 absences dans le mois : la direction est alertée.</span></p></article>
+      <article class="sv rv"><span class="sv-ic"><i class="fa-solid fa-triangle-exclamation"></i></span><h3>Le comportement</h3><p class="avant"><span class="lbl">Aujourd'hui</span>La convocation passe par le cahier, qui n'arrive pas toujours.</p><p class="apres"><span><span class="lbl">Avec Vorelix</span>Au 5e signalement du mois, la convocation part seule.</span></p></article>
+      <article class="sv rv"><span class="sv-ic"><i class="fa-regular fa-calendar-check"></i></span><h3>Les compositions</h3><p class="avant"><span class="lbl">Aujourd'hui</span>Les dates circulent de bouche à oreille.</p><p class="apres"><span><span class="lbl">Avec Vorelix</span>Un rappel aux parents quelques jours avant.</span></p></article>
+    </div>
+  </section>
+
+  <section class="sec" id="fonctionnement" aria-labelledby="route-title">
+    <div class="sec-head"><div><p class="eyebrow">Comment ça marche</p><h2 id="route-title">De la classe au téléphone des parents</h2></div><p class="sec-p">Rien n'est publié sans validation : le surveillant vérifie avant que les familles ne voient quoi que ce soit.</p></div>
+    <div class="route-line" id="route">
+      <span class="route-go" id="routeGo" aria-hidden="true"><i class="fa-solid fa-paper-plane"></i></span>
+      <div class="st"><div class="n">1</div><h3>L'enseignant saisit</h3><p>Notes, absences et retards de sa classe, au fil des cours.</p></div>
+      <div class="st"><div class="n">2<span class="chk" aria-hidden="true"><i class="fa-solid fa-check"></i></span></div><h3>Le surveillant valide</h3><p>Toute la classe en un seul geste, même avec plusieurs enseignants.</p></div>
+      <div class="st"><div class="n">3</div><h3>Le parent est prévenu</h3><p>Une seule notification par enfant, sur son téléphone.</p></div>
+      <div class="st"><div class="n">4</div><h3>La direction suit</h3><p>Chaque mois, la liste des élèves qui ont besoin d'aide.</p></div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="atouts-title">
+    <div class="sec-head"><div><p class="eyebrow">Ce que Vorelix fait à votre place</p><h2 id="atouts-title">Repérer tôt, prévenir vite</h2></div><a class="lnk" href="fonctionnalites.html">Toutes les fonctionnalités <i class="fa-solid fa-arrow-right"></i></a></div>
+    <div class="ways">
+      <article class="way rv">
+        <div class="way-ph"><div class="demo">
+          <p class="demo-t">Élèves à suivre ce mois-ci (exemple)</p>
+          <div class="risque"><span><b>Zongo Ibrahim</b>, 5e A</span><span class="sig">6 absences</span></div>
+          <div class="risque"><span><b>Compaoré Salif</b>, 4e B</span><span class="sig moy">moyenne 7,4</span></div>
+          <div class="risque"><span><b>Nikiéma Rasmata</b>, 6e C</span><span class="sig">5 absences</span></div>
+        </div></div>
+        <h3>Les élèves en difficulté, repérés tôt</h3><p>Chaque mois, la direction voit les élèves qui cumulent 5 absences ou plus, ou dont la moyenne du trimestre passe sous 8/20. On peut agir avant le bulletin.</p>
+      </article>
+      <article class="way rv">
+        <div class="way-ph"><div class="demo">
+          <p class="demo-t">Kaboré Issa, signalements en novembre (exemple)</p>
+          <div class="points" aria-hidden="true"><i style="animation-delay:0s"></i><i style="animation-delay:.7s"></i><i style="animation-delay:1.4s"></i><i style="animation-delay:2.1s"></i><i style="animation-delay:2.8s"></i></div>
+          <div class="convoc"><i class="fa-regular fa-envelope"></i>Convocation envoyée aux parents</div>
+        </div></div>
+        <h3>La convocation part toute seule</h3><p>Un enseignant signale un élève perturbateur en un geste. Au 5e signalement du mois, les parents reçoivent une convocation.</p>
+      </article>
+    </div>
+    <div class="svcs" style="margin-top:72px">
+      <article class="sv rv"><span class="sv-ic"><i class="fa-regular fa-calendar-check"></i></span><h3>Rappels de composition</h3><p>L'école fixe les dates une fois, les parents sont prévenus quelques jours avant.</p></article>
+      <article class="sv rv"><span class="sv-ic"><i class="fa-solid fa-clock-rotate-left"></i></span><h3>Notes tracées</h3><p>Chaque modification est enregistrée, avec son auteur et sa date.</p></article>
+      <article class="sv rv"><span class="sv-ic"><i class="fa-solid fa-print"></i></span><h3>Identifiants imprimés</h3><p>Les accès des parents, générés par classe, prêts à distribuer.</p></article>
+      <article class="sv rv"><span class="sv-ic"><i class="fa-solid fa-children"></i></span><h3>Plusieurs enfants</h3><p>Un seul compte parent pour suivre tous ses enfants de l'école.</p></article>
+    </div>
+  </section>
+
+  <section class="sec seo" aria-labelledby="about-title">
+    <h2 id="about-title">Une application de gestion scolaire pensée pour le Burkina Faso</h2>
+    <div class="seo-cols">
+      <p>Vorelix est une application de gestion scolaire pour les écoles, collèges et lycées du Burkina Faso. La direction organise les classes, l'emploi du temps et les compositions ; les enseignants saisissent les notes, les absences et les retards ; les surveillants valident chaque classe avant toute publication.</p>
+      <p>Les parents suivent leurs enfants depuis l'application mobile : notes validées, absences, convocations et rappels de composition arrivent le jour même. L'application est gratuite pour les familles, l'abonnement est payé par l'école. Les premières écoles pilotes sont accompagnées pour la mise en place.</p>
+    </div>
+  </section>
+</div>
+<div class="wrap"><section class="cta rv" aria-labelledby="cta-title">
+  <span class="ring r1" aria-hidden="true"></span><span class="ring r2" aria-hidden="true"></span>
+  <div><h2 id="cta-title">Lancez Vorelix dans votre école.</h2><p>Nous accompagnons les premières écoles pilotes : création des classes et des comptes, formation de l'équipe, identifiants remis aux parents.</p></div>
+  <div class="cta-r"><a class="tel-big" href="#" data-contact="telephone"></a>
+    <div class="cta-b"><a class="b b-wa" href="#" data-wa target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a><a class="b b-violet" href="contact.html?sujet=pilote" data-sans-wa>Devenir école pilote</a><a class="b" href="tarifs.html">Voir les tarifs</a></div></div>
+</section></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="fbrand"><a class="brand" href="index.html" aria-label="Vorelix, accueil"><svg class="logo" viewBox="0 0 34 34" aria-hidden="true"><path class="pg" d="M4 9.5c4.5-2.4 9-2.4 13 0v17c-4-2.4-8.5-2.4-13 0v-17Z"/><path class="pg" d="M30 9.5c-4.5-2.4-9-2.4-13 0v17c4-2.4 8.5-2.4 13 0v-17Z"/><circle class="pt" cx="27" cy="6" r="3.5"/></svg><span class="brand-txt">VORELIX</span></a>
+        <p>L'application de gestion scolaire qui relie l'école et les parents. Pensée à Ouagadougou, pour les établissements du Burkina Faso.</p>
+        <div class="socials"><a href="#" data-contact-icon="whatsapp" target="_blank" rel="noopener" aria-label="Vorelix sur WhatsApp"><i class="fa-brands fa-whatsapp"></i></a><a href="#" data-contact-icon="telephone" aria-label="Appeler Vorelix"><i class="fa-solid fa-phone"></i></a><a href="#" data-contact-icon="email" aria-label="Écrire un e-mail à Vorelix"><i class="fa-solid fa-envelope"></i></a></div></div>
+      <div><h2>Application</h2><a href="fonctionnalites.html">Fonctionnalités</a><a href="fonctionnalites.html#securite">Sécurité</a><a href="tarifs.html">Tarifs</a><a href="#" data-lien="connexion">Connexion</a></div>
+      <div><h2>Vorelix</h2><a href="a-propos.html">À propos</a><a href="faq.html">Questions fréquentes</a><a href="contact.html?sujet=pilote">Devenir école pilote</a><a href="contact.html">Contact</a></div>
+      <div><h2>Nous joindre</h2><span class="fline" data-texte="adresse">Ouagadougou, Burkina Faso</span><a href="#" data-contact="telephone"></a><a href="#" data-contact="whatsapp" data-libelle="WhatsApp "></a><a href="#" data-contact="email"></a><span class="fline" data-texte="horaires">Lun–Ven, 8h–17h</span></div>
+    </div>
+    <div class="foot-bottom"><span>© <span data-year>2026</span> Vorelix. Tous droits réservés.</span><span>Gestion scolaire intelligente</span></div>
+  </div>
+</footer>
+<a class="wa-float" href="#" data-wa target="_blank" rel="noopener" aria-label="Écrire à Vorelix sur WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<nav class="tabbar" aria-label="Navigation rapide">
+  <a href="index.html" aria-current="page"><span class="ti"><span class="tb-pill"></span><i class="fa-solid fa-house"></i></span><span class="tl">Accueil</span></a>
+  <a href="fonctionnalites.html"><span class="ti"><i class="fa-solid fa-layer-group"></i></span><span class="tl">Fonctions</span></a>
+  <a href="contact.html?sujet=demo" class="tb-mid" data-tb-mid><span class="ti"><i class="fa-solid fa-paper-plane"></i></span><span class="tl">Démo</span></a>
+  <a href="tarifs.html"><span class="ti"><i class="fa-solid fa-tag"></i></span><span class="tl">Tarifs</span></a>
+  <a href="contact.html"><span class="ti"><i class="fa-solid fa-envelope"></i></span><span class="tl">Contact</span></a>
+</nav>
+<div class="toast" id="toast" role="status" aria-live="polite"><i class="fa-solid fa-circle-check"></i><span></span></div>
+</body>
+</html>

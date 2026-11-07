@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>À propos | Vorelix, gestion scolaire</title>
+<meta name="description" content="Vorelix est une solution numérique conçue pour rapprocher les établissements scolaires, les élèves et les parents. Mission, vision, valeurs et principes.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<script>(function(){var d=document.documentElement,t;d.classList.add("js");try{t=localStorage.getItem("vorelix_theme")}catch(e){}if(t!=="dark"&&t!=="light")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";d.setAttribute("data-theme",t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==="dark"?"#090C20":"#FFFFFF"})()</script>
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Vorelix">
+<meta property="og:title" content="À propos | Vorelix, gestion scolaire">
+<meta property="og:description" content="Vorelix est une solution numérique conçue pour rapprocher les établissements scolaires, les élèves et les parents. Mission, vision, valeurs et principes.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+</head>
+<body class="anime" data-page="a-propos">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="site-header" id="siteHeader"><div class="wrap hdr">
+  <a class="brand" href="index.html" aria-label="Vorelix, accueil"><svg class="logo" viewBox="0 0 34 34" aria-hidden="true"><path class="pg" d="M4 9.5c4.5-2.4 9-2.4 13 0v17c-4-2.4-8.5-2.4-13 0v-17Z"/><path class="pg" d="M30 9.5c-4.5-2.4-9-2.4-13 0v17c4-2.4 8.5-2.4 13 0v-17Z"/><circle class="pt" cx="27" cy="6" r="3.5"/></svg><span class="brand-txt">VORELIX</span></a>
+  <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="fonctionnalites.html">Fonctionnalités</a><a href="tarifs.html">Tarifs</a><a href="a-propos.html" aria-current="page">À propos</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav>
+  <div class="hdr-r">
+    <a class="ib ib-login" href="#" data-lien="connexion" aria-label="Se connecter à Vorelix"><i class="fa-solid fa-right-to-bracket"></i></a>
+    <button class="ib theme-ic" type="button" id="themeToggle" aria-label="Activer le mode sombre" aria-pressed="false"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+    <a class="b b-sm b-dark hdr-cta" href="contact.html?sujet=demo">Demander une démo</a>
+    <button class="ib burger" type="button" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mnav"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</div></header>
+<div class="mnav-bg" id="mnavBg" hidden></div>
+<nav class="mnav" id="mnav" aria-label="Menu mobile">
+  <a class="mn-link" href="index.html"><span class="mn-ic"><i class="fa-solid fa-house"></i></span><span class="mn-tx"><b>Accueil</b><small>L'école et les parents, le jour même</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="fonctionnalites.html"><span class="mn-ic"><i class="fa-solid fa-layer-group"></i></span><span class="mn-tx"><b>Fonctionnalités</b><small>Direction, surveillants, enseignants, parents</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="tarifs.html"><span class="mn-ic"><i class="fa-solid fa-tag"></i></span><span class="mn-tx"><b>Tarifs</b><small>Trois formules, gratuit pour les parents</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="a-propos.html" aria-current="page"><span class="mn-ic"><i class="fa-solid fa-circle-info"></i></span><span class="mn-tx"><b>À propos</b><small>Mission, vision et valeurs</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="faq.html"><span class="mn-ic"><i class="fa-solid fa-circle-question"></i></span><span class="mn-tx"><b>FAQ</b><small>Les réponses aux questions courantes</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="contact.html"><span class="mn-ic"><i class="fa-solid fa-envelope"></i></span><span class="mn-tx"><b>Contact</b><small>Démonstration, école pilote, questions</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <a class="mn-link" href="#" data-lien="connexion"><span class="mn-ic"><i class="fa-solid fa-right-to-bracket"></i></span><span class="mn-tx"><b>Connexion</b><small>Espace de l'école</small></span><i class="fa-solid fa-chevron-right mn-go"></i></a>
+  <label class="mn-row"><span class="mn-ic"><i class="fa-solid fa-moon"></i></span><span class="mn-tx"><b>Mode sombre</b></span><span class="sw"><input type="checkbox" data-theme-switch><i></i></span></label>
+  <div class="mn-acts"><a class="b b-wa" href="#" data-wa target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a><a class="b b-dark" href="contact.html?sujet=demo">Demander une démo</a></div>
+</nav>
+<main id="contenu">
+<div class="wrap">
+  <header class="page-head">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><i class="fa-solid fa-chevron-right"></i><span>À propos</span></nav>
+    <h1>Rapprocher l'école et les familles</h1>
+    <p>Vorelix est une solution numérique conçue pour rapprocher les établissements scolaires, les élèves et les parents.</p>
+  </header>
+
+  <section class="sec" aria-labelledby="mvv-title">
+    <h2 id="mvv-title" class="sr-only">Mission, vision et valeurs</h2>
+    <div class="svcs svcs-3">
+      <article class="sv rv"><span class="sv-ic"><i class="fa-solid fa-bullseye"></i></span><h3>Mission</h3><p>Simplifier la gestion scolaire et améliorer la communication entre l'école et les familles.</p></article>
+      <article class="sv rv"><span class="sv-ic"><i class="fa-regular fa-eye"></i></span><h3>Vision</h3><p>Devenir la référence de la gestion scolaire intelligente en Afrique.</p></article>
+      <article class="sv rv"><span class="sv-ic"><i class="fa-regular fa-heart"></i></span><h3>Valeurs</h3><p>Simplicité, sécurité, transparence et innovation.</p></article>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="why-title">
+    <div class="why">
+      <div>
+        <p class="eyebrow">Pourquoi Vorelix</p>
+        <h2 id="why-title">Ce qui se passe en classe ne devrait pas attendre le bulletin</h2>
+        <p>Dans beaucoup d'établissements, une absence, une mauvaise note ou un problème de comportement est connu des parents des semaines plus tard, quand il est difficile de rattraper le retard.</p>
+        <p>Vorelix fait passer l'information le jour même. L'enseignant saisit, le surveillant vérifie, et le parent est prévenu sur son téléphone. L'école garde la main : rien n'est publié sans validation.</p>
+      </div>
+      <div class="why-card rv">
+        <div class="stamp" data-hit aria-hidden="true"><div><b><i class="fa-solid fa-check"></i></b><small>VALIDÉ</small></div></div>
+        <h3>Le trajet d'une note</h3>
+        <dl style="margin-top:12px">
+          <div class="mrow"><dt>Saisie</dt><dd>L'enseignant</dd></div>
+          <div class="mrow"><dt>Vérification</dt><dd>Le surveillant</dd></div>
+          <div class="mrow"><dt>Notification</dt><dd>Le parent</dd></div>
+          <div class="mrow"><dt>Suivi du mois</dt><dd>La direction</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="pr-title">
+    <div class="sec-head"><div><p class="eyebrow">Nos principes</p><h2 id="pr-title">Ce que nous nous engageons à respecter</h2></div></div>
+    <div class="cards">
+      <div class="gi rv"><i class="fa-solid fa-circle-check"></i><b>Rien sans validation</b><span>Le surveillant vérifie chaque classe avant que les familles ne voient une note.</span></div>
+      <div class="gi rv"><i class="fa-solid fa-lock"></i><b>Des données protégées</b><span>Mots de passe chiffrés, et chaque parent ne voit que ses propres enfants.</span></div>
+      <div class="gi rv"><i class="fa-solid fa-user"></i><b>Simple pour tous les parents</b><span>Un matricule, un mot de passe, et les nouvelles arrivent toutes seules.</span></div>
+      <div class="gi rv"><i class="fa-solid fa-mobile-screen"></i><b>Pensé pour le téléphone</b><span>Les parents suivent tout depuis l'application mobile, avec une connexion mobile.</span></div>
+    </div>
+  </section>
+
+  <!--
+    Bloc « L'équipe » à ajouter plus tard : retirez les marques de commentaire autour de cette section
+    et remplacez le texte par une photo, un nom et une phrase.
+  <section class="sec" aria-labelledby="eq-title">
+    <div class="sec-head"><div><p class="eyebrow">L'équipe</p><h2 id="eq-title">Qui fait Vorelix</h2></div></div>
+    <p>Nom du fondateur, rôle, et ce qui lui a donné envie de créer Vorelix.</p>
+  </section>
+  -->
+</div>
+<div class="wrap"><section class="cta rv" aria-labelledby="cta-title">
+  <span class="ring r1" aria-hidden="true"></span><span class="ring r2" aria-hidden="true"></span>
+  <div><h2 id="cta-title">Construisons Vorelix avec votre école.</h2><p>Les premières écoles pilotes nous aident à choisir les prochaines fonctionnalités.</p></div>
+  <div class="cta-r"><a class="tel-big" href="#" data-contact="telephone"></a>
+    <div class="cta-b"><a class="b b-wa" href="#" data-wa target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a><a class="b b-violet" href="contact.html?sujet=pilote" data-sans-wa>Devenir école pilote</a><a class="b" href="fonctionnalites.html">Les fonctionnalités</a></div></div>
+</section></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="fbrand"><a class="brand" href="index.html" aria-label="Vorelix, accueil"><svg class="logo" viewBox="0 0 34 34" aria-hidden="true"><path class="pg" d="M4 9.5c4.5-2.4 9-2.4 13 0v17c-4-2.4-8.5-2.4-13 0v-17Z"/><path class="pg" d="M30 9.5c-4.5-2.4-9-2.4-13 0v17c4-2.4 8.5-2.4 13 0v-17Z"/><circle class="pt" cx="27" cy="6" r="3.5"/></svg><span class="brand-txt">VORELIX</span></a>
+        <p>L'application de gestion scolaire qui relie l'école et les parents. Pensée à Ouagadougou, pour les établissements du Burkina Faso.</p>
+        <div class="socials"><a href="#" data-contact-icon="whatsapp" target="_blank" rel="noopener" aria-label="Vorelix sur WhatsApp"><i class="fa-brands fa-whatsapp"></i></a><a href="#" data-contact-icon="telephone" aria-label="Appeler Vorelix"><i class="fa-solid fa-phone"></i></a><a href="#" data-contact-icon="email" aria-label="Écrire un e-mail à Vorelix"><i class="fa-solid fa-envelope"></i></a></div></div>
+      <div><h2>Application</h2><a href="fonctionnalites.html">Fonctionnalités</a><a href="fonctionnalites.html#securite">Sécurité</a><a href="tarifs.html">Tarifs</a><a href="#" data-lien="connexion">Connexion</a></div>
+      <div><h2>Vorelix</h2><a href="a-propos.html">À propos</a><a href="faq.html">Questions fréquentes</a><a href="contact.html?sujet=pilote">Devenir école pilote</a><a href="contact.html">Contact</a></div>
+      <div><h2>Nous joindre</h2><span class="fline" data-texte="adresse">Ouagadougou, Burkina Faso</span><a href="#" data-contact="telephone"></a><a href="#" data-contact="whatsapp" data-libelle="WhatsApp "></a><a href="#" data-contact="email"></a><span class="fline" data-texte="horaires">Lun–Ven, 8h–17h</span></div>
+    </div>
+    <div class="foot-bottom"><span>© <span data-year>2026</span> Vorelix. Tous droits réservés.</span><span>Gestion scolaire intelligente</span></div>
+  </div>
+</footer>
+<a class="wa-float" href="#" data-wa target="_blank" rel="noopener" aria-label="Écrire à Vorelix sur WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<nav class="tabbar" aria-label="Navigation rapide">
+  <a href="index.html"><span class="ti"><i class="fa-solid fa-house"></i></span><span class="tl">Accueil</span></a>
+  <a href="fonctionnalites.html"><span class="ti"><i class="fa-solid fa-layer-group"></i></span><span class="tl">Fonctions</span></a>
+  <a href="contact.html?sujet=demo" class="tb-mid" data-tb-mid><span class="ti"><i class="fa-solid fa-paper-plane"></i></span><span class="tl">Démo</span></a>
+  <a href="tarifs.html"><span class="ti"><i class="fa-solid fa-tag"></i></span><span class="tl">Tarifs</span></a>
+  <a href="contact.html"><span class="ti"><i class="fa-solid fa-envelope"></i></span><span class="tl">Contact</span></a>
+</nav>
+<div class="toast" id="toast" role="status" aria-live="polite"><i class="fa-solid fa-circle-check"></i><span></span></div>
+</body>
+</html>
